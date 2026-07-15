@@ -1,0 +1,95 @@
+
+@media screen and (max-width: 1850px) {
+
+
+            #image_gallery #content_module .artwork_details_wrapper .visualisation-tools.expand-one-row  {
+
+                    margin-bottom: 100px;
+                }
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .roomview-buttons-wrapper.thumbnails ul.active {
+        max-width:calc(80px * 4);
+    }
+}
+@media screen and (max-width: 1550px) {
+
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .roomview-photo-close.active {
+    
+    }
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1440px) {
+                #image_gallery #content_module .artwork_details_wrapper .visualisation-tools.expand-one-row  {
+
+                    margin-bottom: 50px;
+                }
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools {
+
+    }
+
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .detail_view_module.detail_view_module_ar {
+        width: 100%;
+    }
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .detail_view_module {
+        width: 100%;
+
+        margin-bottom:10px;
+    }
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .detail_view_module .roomview-button-custom {
+        text-align: left;
+    }
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .detail_view_module .roomview-button-custom [class*="artlogic-social-icon"] {
+        display: inline-block;
+        padding-bottom:0;
+        margin-right:10px;
+    }
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .detail_view_module .view-in-ar-button .ar-button-icon {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1120px) {
+
+
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools.expand-one-row {
+        margin-bottom:80px;
+    }
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools.expand-two-row {
+        margin-bottom:160px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .roomview-buttons-wrapper.thumbnails ul.active {
+        max-width: calc(80px * 4);
+    }
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .roomview-photo-close.active {
+
+    }
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools.expand-one-row {
+        margin-bottom:20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .roomview-buttons-wrapper.thumbnails ul.active {
+
+    }
+
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools.expand-one-row {
+        margin-bottom:100px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools .roomview-buttons-wrapper.thumbnails ul.active {
+        max-width: calc(80px * 3);
+    }
+
+    #image_gallery #content_module .artwork_details_wrapper .visualisation-tools.expand-one-row {
+        margin-bottom:160px;
+    }
+}

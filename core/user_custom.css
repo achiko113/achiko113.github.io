@@ -1,0 +1,1022 @@
+
+
+
+
+    
+/* CSS imports ------------------- */
+
+
+            /* Forced mobile nav on all sizes ------------------- */
+            @import url('../lib/g/2.0/styles/responsive_topnav.css');
+            
+                @import url('../lib/g/themes/mode/2.1/styles/responsive_topnav.css');
+            
+            
+
+    
+    /* Font imports ------------------- */
+
+    
+    
+
+        
+    /* Background colour --------------*/
+
+
+
+
+
+    
+
+
+    #header.header_transparent .dropdown-mask {
+        background-color: transparent !important;
+    }
+    
+
+    
+    
+
+    /* Feature popup colours ------------------- */
+
+    
+    
+
+    
+
+
+/* Fonts----------------------------- */
+
+    /* Main body font ------------------- */
+
+    /* Heading and emphasis font ------------------- */
+
+
+    /* Navigation font ------------------- */
+
+    
+    /* User custom html-font sizing ------------------- */
+    
+      
+        html {
+            font-size: 11.0px;
+        }
+    
+    
+    /* Title - Heading spacing and transform ------------------- */
+        
+
+/* Text colours----------------------------- */
+
+
+    /* Heading and emphasis text colour ------------------- */
+
+    /* Colour None */
+
+
+    /* Subheading and secondary emphasis text colour ------------------- */
+
+
+    /* Body/main text colour ------------------- */
+
+
+
+    /* Link text color ------------------- */
+
+    
+
+    /* Header layout ------------------- */
+
+    
+    
+    
+
+    /* Dynamically created grid layout css ------------------- */
+    
+
+
+ /* artfairs - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_artfairs ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_artfairs:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_artfairs:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_artfairs ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_artfairs ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_artfairs ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* instagram - image_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.grid_dynamic_layout_instagram:not(.feature_list) > ul > li { width:33.33% }}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_instagram:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_instagram:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_instagram ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_instagram ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_instagram ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* artworks - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_artworks ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_artworks:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_artworks:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_artworks ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_artworks ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_artworks ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* default image grid - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_default_image_grid ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_default_image_grid:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_default_image_grid:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_default_image_grid ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_default_image_grid ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_default_image_grid ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* video - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_video ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                                .records_list.grid_dynamic_layout_video ul li img { object-fit: cover; width: 100%; height: 100%; }
+
+                                .records_list.grid_dynamic_layout_video ul li .image > span.objectfit-fallback-bg { background-size:cover; }
+
+                                .records_list.grid_dynamic_layout_video ul li .image > span > a { height: 100%; }
+
+                                .browser-msie .records_list.grid_dynamic_layout_video ul li img { font-family:object-fit; }
+
+                                .browser-msie .records_list.grid_dynamic_layout_video ul li img:first-letter { font-family:object-fit; }
+
+                            
+                                .records_list.grid_dynamic_layout_video ul li .image::after {display:block;}
+                                .records_list.grid_dynamic_layout_video ul li .image > span {position: absolute;}
+
+                            
+                                    .records_list.grid_dynamic_layout_video ul li .image::after { padding-top:66.6666666667%; }
+
+                                
+
+
+ /* default grid - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_default_grid ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_default_grid:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_default_grid:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_default_grid ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_default_grid ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_default_grid ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* artists - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_artists ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_artists:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_artists:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_artists ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_artists ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_artists ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* video featured - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_video_featured ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_video_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_video_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_video_featured ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_video_featured ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_video_featured ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* artist works categories - image_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.grid_dynamic_layout_artist_works_categories:not(.feature_list) > ul > li { width:33.33% }}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_artist_works_categories:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_artist_works_categories:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_artist_works_categories ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_artist_works_categories ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_artist_works_categories ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* exhibitions - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_exhibitions ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_exhibitions:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_exhibitions:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_exhibitions ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_exhibitions ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_exhibitions ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* events works - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_events ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_events:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_events:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_events ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_events ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_events ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* exhibitions installation - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_exhibitions_installation ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_exhibitions_installation:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_exhibitions_installation:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_exhibitions_installation ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_exhibitions_installation ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_exhibitions_installation ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* artist installation - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_artist_installation ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_artist_installation:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_artist_installation:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_artist_installation ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_artist_installation ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_artist_installation ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* blog - reading_list-------------------------------------- */
+
+
+                                .records_list.grid_dynamic_layout_blog ul li img { object-fit: cover; width: 100%; height: 100%; }
+
+                                .records_list.grid_dynamic_layout_blog ul li .image > span.objectfit-fallback-bg { background-size:cover; }
+
+                                .records_list.grid_dynamic_layout_blog ul li .image > span > a { height: 100%; }
+
+                                .browser-msie .records_list.grid_dynamic_layout_blog ul li img { font-family:object-fit; }
+
+                                .browser-msie .records_list.grid_dynamic_layout_blog ul li img:first-letter { font-family:object-fit; }
+
+                            
+                                    .records_list.grid_dynamic_layout_blog ul li .image::after { padding-top:66.6666666667%; }
+
+                                
+
+
+ /* store featured - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_store_featured ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_store_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_store_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_store_featured ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_store_featured ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_store_featured ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* events featured - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_events_featured ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_events_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_events_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_events_featured ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_events_featured ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_events_featured ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* artwork categories landing - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_artwork_categories_landing ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_artwork_categories_landing:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_artwork_categories_landing:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_artwork_categories_landing ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_artwork_categories_landing ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_artwork_categories_landing ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* events - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_events ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_events:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_events:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_events ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_events ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_events ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* store - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_store ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_store:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_store:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_store ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_store ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_store ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* default feature grid - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_default_feature_grid ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_default_feature_grid:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_default_feature_grid:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_default_feature_grid ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_default_feature_grid ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_default_feature_grid ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* feature panels - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_feature_panels ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_feature_panels:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_feature_panels:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_feature_panels ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_feature_panels ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_feature_panels ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* exhibitions works - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_exhibitions_works ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_exhibitions_works:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_exhibitions_works:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_exhibitions_works ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_exhibitions_works ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_exhibitions_works ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* publications featured - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_publications_featured ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_publications_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_publications_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_publications_featured ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_publications_featured ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_publications_featured ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* press featured - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_press_featured ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_press_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_press_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_press_featured ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_press_featured ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_press_featured ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* news featured - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_news_featured ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_news_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_news_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_news_featured ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_news_featured ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_news_featured ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* artfairs featured - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_artfairs_featured ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_artfairs_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_artfairs_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_artfairs_featured ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_artfairs_featured ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_artfairs_featured ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* exhibitions featured - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_exhibitions_featured ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_exhibitions_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_exhibitions_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_exhibitions_featured ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_exhibitions_featured ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_exhibitions_featured ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* press - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_press ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_press:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_press:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_press ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_press ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_press ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* news - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_news ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_news:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_news:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_news ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_news ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_news ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* viewing rooms featured forthcoming - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_viewing_rooms_featured_forthcoming ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_viewing_rooms_featured_forthcoming:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_viewing_rooms_featured_forthcoming:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_viewing_rooms_featured_forthcoming ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_viewing_rooms_featured_forthcoming ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_viewing_rooms_featured_forthcoming ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* search - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_search ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_search:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_search:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_search ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_search ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_search ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* viewing rooms featured - feature_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.feature_list.grid_dynamic_layout_viewing_rooms_featured ul { width:100%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_viewing_rooms_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_viewing_rooms_featured:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_viewing_rooms_featured ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_viewing_rooms_featured ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_viewing_rooms_featured ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* viewing rooms works - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_viewing_rooms_works ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_viewing_rooms_works:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_viewing_rooms_works:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_viewing_rooms_works ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_viewing_rooms_works ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_viewing_rooms_works ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* artist works - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_artist_works ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_artist_works:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_artist_works:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_artist_works ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_artist_works ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_artist_works ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* exhibitors - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_exhibitors ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_exhibitors:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_exhibitors:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_exhibitors ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_exhibitors ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_exhibitors ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* feature panels image grid - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_feature_panels_image_grid ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_feature_panels_image_grid:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_feature_panels_image_grid:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_feature_panels_image_grid ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_feature_panels_image_grid ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_feature_panels_image_grid ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* publications - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_publications ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_publications:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_publications:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_publications ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_publications ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_publications ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* team - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_team ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_team:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_team:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_team ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_team ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_team ul li .image::after { padding-top:100.0%; }
+
+                                
+
+
+ /* viewing rooms - tile_list scatter_list-------------------------------------- */
+
+@media screen and (min-width:1250px) {.records_list.tile_list.scatter_list.grid_dynamic_layout_viewing_rooms ul { width:25.0%; margin-left:4.16%;margin-right:4.16%;}}
+
+                            
+                            .records_list.feature_list.grid_dynamic_layout_viewing_rooms:not(.grid_dynamic_layout_exhibitions_featured) ul li .image::after { display:none; }
+
+                            .records_list.feature_list.grid_dynamic_layout_viewing_rooms:not(.grid_dynamic_layout_exhibitions_featured) ul li .image > span { display:block; position: static }
+
+                        
+                            .records_list.grid_dynamic_layout_viewing_rooms ul li .image > span.objectfit-fallback-bg { background-size:contain; }
+
+                        .records_list.grid_dynamic_layout_viewing_rooms ul li .image > span { -webkit-justify-content:center; justify-content: center; -webkit-align-items:center; -ms-flex-align: center; align-items: center; }
+
+                                
+                                    .records_list.grid_dynamic_layout_viewing_rooms ul li .image::after { padding-top:100.0%; }
+
+                                
+    
+    
+    /* Dynamically created artist list css ------------------- */
+    .subsection-artist-list-preview-letters .artists_list_dynamic_columns ul { width:25.0% }
+                .subsection-artist-list-standard .artists_list_dynamic_columns ul { width:33.33% }
+                .subsection-artist-list-preview .artists_list_dynamic_columns ul { width:25.0% }
+                
+
+    /* Light and dark logo variants css ------------------- */
+    
+
+
+
+
+    /* Logo text color ------------------- */
+
+            #logo {
+                background: none;
+                width: 100%;
+                    
+                    min-width: 100px;
+                    max-width: 100px;
+            }
+
+            
+                #header #logo.user-custom-logo-image::before {
+                    padding-top:100.0%;
+                } 
+        
+        .device-highres #logo {
+            background: none;
+        }
+        #logo a {
+            background-image: url('../../static-assets.artlogic.net/w_1000,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite2704/usr/images/preferences/afa_1x1-removebg-preview.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+                background-size: contain;
+        }
+        .browser-msie-6 #logo a,
+        .browser-msie-7 #logo a,
+        .browser-msie-8 #logo a,
+        .browser-msie-9 #logo a,
+        .browser-msie-10 #logo a {
+            background: none;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-assets.artlogic.net/ws-artlogicwebsite2704/usr/images/preferences/afa_1x1-removebg-preview.png', sizingMethod='scale');
+            -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-assets.artlogic.net/ws-artlogicwebsite2704/usr/images/preferences/afa_1x1-removebg-preview.png', sizingMethod='scale')";
+        }
+        #logo a {
+            text-indent: -9999px;
+            padding: 0;
+        }
+        
+        
+
+        
+        
+
+
+    /* Topnav text color ------------------- */
+
+    
+
+    /* Subnav text color ------------------- */
+
+
+    /* Responsive nav text color ------------------- */
+
+    
+    /* Responsive nav active / hover text color ------------------- */
+    
+
+    /* Button text color ------------------- */
+
+    
+    
+    /* Hero section image opacity ------------------- */
+
+        
+        .fullscreen-slide-dark .fullscreen_slideshow.hero_header_layout_center:not(.override-slide-brightness) ul li::before,
+        .fullscreen_slideshow.hero_header_layout_center:not(.detect-slide-brightness):not(.override-slide-brightness) ul li::before,
+        
+        .fullscreen-slide-dark .fullscreen_slideshow.hero_header_layout_left-center:not(.override-slide-brightness) ul li::before,
+        .fullscreen_slideshow.hero_header_layout_left-center:not(.detect-slide-brightness):not(.override-slide-brightness) ul li::before {
+            background: rgba(0,0,0,0.1999999999999999555910790150) !important;
+        }
+        .fullscreen-slide-light .fullscreen_slideshow.hero_header_layout_center:not(.override-slide-brightness) ul li::before,
+        
+        .fullscreen-slide-light .fullscreen_slideshow.hero_header_layout_left-center:not(.override-slide-brightness) ul li::before {
+            background: rgba(255,255,255,0.1999999999999999555910790150) !important;
+        }
+        
+
+    /* don't show if opacity = 1 */
+    
+    /* Hero section image height ------------------- */
+    ::root {
+        --hero-height: 0vh
+    }
+
+    
+    
+    /* Home page slideshow / fullscreen video ui buttons ------------------- */
+    
+    
+    
+    
+    /* Hero header slideshow ui buttons ------------------- */
+    
+    
+    
+    
+    /* Carousel feature panel ui buttons ------------------- */
+    
+    
+
+
+    @media screen and (max-width:360px) {
+        #logo a {
+            background-image: url('../../static-assets.artlogic.net/w_500,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite2704/usr/images/preferences/afa_1x1-removebg-preview.png');
+        }
+    }
+
+/* Artlogic preferences custom CSS - entered by Artlogic in the preferences screen ------------------- */
+
+body.responsive-nav-side-position-fullscreen #responsive_slide_nav_wrapper #topnav_translations ul {
+  display: none;
+}
+
+#translations_nav {
+    display: none;
+}
+
+div.topnav_translations {
+  display: none !important;
+}
+
+div#topnav_translations {
+  display: none !important;
+}
+
+
+/* Client custom user CSS - entered by the client in the preferences screen ------------------- */
+

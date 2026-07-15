@@ -1,0 +1,304 @@
+/* ----------------------------------------------------------------------------------
+Site name
+Theme name: Site name
+---------------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------
+   Template sites - common settings
+----------------------------------------------------------- */
+
+    /* -----------------------------------------------------------
+       Template site logo
+       1. Create one normal-size logo and one retina 2x version (logo.png and logo_2x.png) and place in /public/images/
+       2. Adjust the following settings with the logo height and width accordingly
+    -----------------------------------------------------------
+
+        #logo, #logo a {
+            width: YOUR-LOGO-WIDTH;
+            height: YOUR-LOGO-HEIGHT;
+        }
+        #logo {
+            background-image: url('/images/logo.png');
+        }
+        #logo a {
+            text-indent: -9999px;
+            padding: 0;
+        }
+        .device-highres #logo {
+            background-image: url('/images/logo_2x.png');
+            background-size: auto YOUR-LOGO-HEIGHT;
+        }
+
+    */
+    
+    /* -----------------------------------------------------------
+       Homepage splash page
+       1. Enable 'homepage_splash' setting in site_settings
+       2. Adjust the following settings, either logo OR text on a colour OR image, and optional mask.
+       NOTE: The background image can be replaced by the client on the homepage edit screen
+    -----------------------------------------------------------
+
+        #home_splash {
+            background-image: BACKGROUND-LARGE-IMAGE-HERE;
+            background-color: BACKGROUND-COLOR-HERE;
+        }
+            #home_splash .inner {
+                background: rgba(0,0,0,0.6);
+            }
+            #home_splash .content {
+                font-family: TEXT-STYLES-HERE;
+                background-image: OR-LARGE-LOGO-HERE;
+            }
+
+    */
+
+
+/* -----------------------------------------------------------
+   Layout
+----------------------------------------------------------- */
+
+    #container {
+
+    }
+
+    #header {
+
+    }
+
+    .navigation {
+
+    }
+        .navigation ul {
+
+        }
+        .navigation ul li {
+
+        }
+        .navigation ul li a {
+
+        }
+        .navigation ul li a,
+        .navigation ul li a:visited {
+
+        }
+        .navigation ul li a:hover {
+
+        }
+        .navigation ul li.active a,
+        .navigation ul li.active a:visited,
+        .navigation ul li.active a:hover {
+
+        }
+
+    #main_content {
+
+    }
+        #main_content h1 {
+
+        }
+
+    #content {
+
+    }
+        #content_module {
+
+        }
+        #sidebar {
+
+        }
+
+    #footer {
+
+    }
+        #footer #copyright {
+
+        }
+        #footer a,
+        #footer a:visited {
+
+        }
+
+
+/* -----------------------------------------------------------
+   Page Specific
+----------------------------------------------------------- */
+
+
+    /* Home
+    ----------------------------------------------------------- */
+
+    
+
+    /* Artists
+    ----------------------------------------------------------- */
+
+
+
+    /* Exhibitions
+    ----------------------------------------------------------- */
+
+
+
+    /* Events
+    ----------------------------------------------------------- */
+
+
+
+    /* Press
+    ----------------------------------------------------------- */
+
+
+
+    /* Publications
+    ----------------------------------------------------------- */
+
+
+
+    /* Store
+    ----------------------------------------------------------- */
+
+
+
+    /* About
+    ----------------------------------------------------------- */
+
+
+
+/* -----------------------------------------------------------
+   Global Classes
+----------------------------------------------------------- */
+
+    /* Records list
+       Default styling for all content grids on the site
+    ----------------------------------------------------------- */
+
+    .records_list {
+
+    }
+        .records_list ul {
+
+        }
+        .records_list ul li {
+
+        }
+        .records_list ul li a,
+        .records_list ul li a:visited {
+
+        }
+        .records_list ul li .image {
+
+        }
+        .records_list .content {
+
+        }
+
+
+    /* Image list
+       A grid of images with captions e.g. Artists list
+    ----------------------------------------------------------- */
+
+    .image_list {
+
+    }
+        .image_list ul {
+
+        }
+        .image_list ul li {
+
+        }
+        .image_list ul li .image {
+
+        }
+        .image_list ul li .content {
+
+        }
+
+
+    /* Detail list
+       A grid which usually has an image with more preview text/content
+    ----------------------------------------------------------- */
+
+    .detail_list {
+
+    }
+        .detail_list ul {
+
+        }
+        .detail_list ul li {
+
+        }
+
+        .detail_list ul li .image {
+
+        }
+        .detail_list ul li .content {
+
+        }
+
+
+    /* Full list
+       A grid where each item fills the full width of the page
+    ----------------------------------------------------------- */
+
+    .full_list {
+
+    }
+        .full_list ul {
+
+        }
+        .full_list ul li {
+
+        }
+        .full_list ul li .image {
+
+        }
+
+
+    /* link
+       Basic text link usually used throughout the site
+    ----------------------------------------------------------- */
+
+    .link {
+
+    }
+        .link a{
+
+        }
+        .link a,
+        .link a:visited {
+
+        }
+
+
+    /* Miscellaneous
+       Common classes used throughout the site, generally on grids
+    ----------------------------------------------------------- */
+
+    .description {
+
+    }
+    .subtitle {
+
+    }
+    .date {
+
+    }
+    .price {
+
+    }
+    .image {
+
+    }
+    .caption {
+
+    }
+    .divider {
+
+    }
+
+
+
+
+
+    /* Fancybox ----------------------------------------- */

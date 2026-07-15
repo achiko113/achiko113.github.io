@@ -1,0 +1,73 @@
+/* Base text styles for Gallery websites - for sites and Rich Text Editors */
+
+@import url(/lib/archimedes/styles/base_text_styles_for_editor.css);
+
+html {
+}
+body {
+    font-family: sans-serif;
+}
+ul {
+
+}
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+b, strong {
+    font-weight: bold;
+}
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  margin: 0;
+  color: inherit;
+  overflow: visible;
+  text-transform: none;
+  background-color: transparent;
+  -webkit-appearance: button;
+}
+
+body .cms_button a,
+body a.cms_button,
+body a.cms_button:visited {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    transition: background 0.35s ease-in-out;
+    -webkit-transition: background 0.35s ease-in-out;
+    height: auto;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+    body .cms_button a,
+    body .cms_button a:visited {
+        text-decoration: none;
+    }
+    body .cms_button a:hover,
+    body a.cms_button:hover {
+        background: #f9f9f9;
+    }
+#content h1,
+#content h2,
+#content h3 {
+    word-wrap: break-word;
+}
+body #content_module,
+body .content_module {
+    word-wrap: break-word;
+}
+body #content_module .website a,
+body .content_module .website a {
+    word-break: break-all;
+}

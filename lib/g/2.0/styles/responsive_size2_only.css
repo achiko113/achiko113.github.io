@@ -1,0 +1,105 @@
+
+    /* Two columns in this viewport */
+
+    /*body.responsive-layout-forced-image-lists .records_list.image_list,
+    body.responsive-layout-forced-lists .records_list.detail_list {
+        margin-right: -20px;
+        width: auto;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list ul,
+    body.responsive-layout-forced-lists .records_list.detail_list ul {
+        display: inline;
+        clear: none;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list > ul > li,
+    body.responsive-layout-forced-lists .records_list.detail_list > ul > li {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        margin-right: 0;
+        padding-right: 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        clear: none;
+    }*/
+    /*
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li:nth-of-type(odd),
+    body.responsive-layout-forced-lists .records_list.detail_list ul li:nth-of-type(odd) {
+        margin-right: 6%;
+    }
+    */
+    /*body.responsive-layout-forced-image-lists .records_list.image_list ul li.unequal_twocol,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li.unequal_twocol {
+        width: 100%;
+        margin-right: 0;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .outer,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .outer {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .fill,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .fill {
+        margin-top: 100%;
+        display: block;
+    }
+
+        body.responsive-layout-forced-image-lists .records_list.image_list ul li.panel_image_text_adjacent .fill,
+        body.responsive-layout-forced-lists .records_list.detail_list ul li.panel_image_text_adjacent .fill {
+            margin-top: 0;
+            display: none;
+        }
+
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .image_wrapper,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .image_wrapper {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+        body.responsive-layout-forced-image-lists .records_list.image_list ul li.panel_image_text_adjacent .image_wrapper,
+        body.responsive-layout-forced-lists .records_list.detail_list ul li.panel_image_text_adjacent .image_wrapper {
+            position: static;
+        }
+
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .image,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .image,
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .image span,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .image span {
+        height: 100%;
+    }
+
+
+    body.responsive-layout-forced-lists.page-artists .subsection-artist-list-preview #list_preview_navigation.records_list.columns_list ul,
+    body.responsive-layout-forced-lists.page-artists .subsection-artist-list-preview-letters #list_preview_navigation.records_list.columns_list ul {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+*/
+
+    /* Tile list ----------------------------------------------------------- */
+
+    /*body.responsive-layout-forced-tile-lists .records_list.tile_list ul {
+        width: 47%;
+        margin-right: 6%;
+        float: left;
+    }
+    body.responsive-layout-forced-tile-lists .records_list.tile_list ul:nth-of-type(2n) {
+        margin-right: 0;
+    }*/
+
+
+    /* Feature panel type 6 - image grid
+    ----------------------------------------------------------- */
+/*
+    .feature_panels .records_list.image_list ul li.panel_image_grid {
+        width: 100%;
+    }*/

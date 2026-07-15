@@ -1,0 +1,245 @@
+/*
+    These are the base text styles for TinyMCE editors.
+
+    This file should be replaced by one in the site instance and
+    the parameter 'base_text_css_url' set in the ini file.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 10px;
+    font-family: 'Trebuchet MS', Arial, Sans-Serif;
+    font-size: 15px;
+    line-height: 1.4em;
+    background: #FFF;
+    color: #0a0a0a;
+}
+a,
+a:visited, .link_color {
+    color: #0a0a0a;
+    text-decoration: underline;
+}
+a:hover, .link_color:hover {
+    color: #0a0a0a;
+    text-decoration: none;
+}
+a img {
+    border: 0;
+}
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', Arial, Sans-Serif;
+    color: #0a0a0a;
+}
+h1 a, h2 a, h3 a, h4 a,
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+h1 {
+    font-size: 1.93em;
+    line-height: 1.2em;
+    margin: 8px 0 38px 0;
+}
+h2 {
+    font-size: 1.47em;
+    line-height: 1.2em;
+    margin: 8px 0 15px 0;
+}
+h3 {
+    font-size: 1.20em;
+    line-height: 1.2em;
+    margin: 8px 0 15px 0;
+}
+h4 {
+    font-size: 1.07em;
+    line-height: 1.1em;
+    margin: 8px 0 15px 0;
+}
+h5 {
+    font-size: 1.07em;
+    line-height: 1.1em;
+    margin: 8px 0 15px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+ul li {
+    margin-bottom: 5px;
+}
+ol {
+    padding-left: 20px;
+}
+hr {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* classes defined in the 'Styles' menu in tinymce (see archimedes-editscreens-additional.js) */
+.cms_strike {
+    text-decoration: line-through;
+}
+.cms_textremoved {
+    color: #aaa;
+    text-decoration: line-through;
+}
+.cms_code {
+    font-family: monospace;
+    font-size: 0.8em;
+}
+.cms_red {
+    color: #ea0000;
+}
+.cms_gray {
+    color: #757575;
+}
+.cms_black {
+    color: black;
+}
+.cms_nounderline,
+.cms_nounderline a,
+.cms_nounderline a:visited,
+.cms_nounderline a:hover,
+a.cms_nounderline,
+a.cms_nounderline:visited,
+a.cms_nounderline:hover {
+    text-decoration: none;
+}
+
+
+pre, pre.code {
+    font-family: monospace;
+    font-size: smaller;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    margin: 2em 0;
+    padding: 18px;
+    line-height: normal;
+    overflow: auto;
+}
+
+blockquote {
+    /* in appearance is like pre.code but not monospaced and has  line-breaks */
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -moz-box-shadow: 1px 1px 3px #ccc;
+    -webkit-box-shadow: 1px 1px 3px #ccc;
+    box-shadow: 1px 1px 3px #ccc;
+    background: url(../images/blockquote.png) 0 0 no-repeat #fafafa;
+    margin: 2em 0;
+    padding: 18px 18px 18px 24px;
+    line-height: normal;
+    overflow: auto;
+    text-indent: 18px;
+}
+
+.user_favourites {
+    line-height: 26px;
+}
+
+.user_favourite_item a {
+    font-size: 13px !important;
+    padding: 2px 6px;
+    margin: 0 2px 0 2px;
+}
+
+
+/* lozenge / lozenge btns for tax rates, etc. - used in Artlogic Online. */
+
+.lozenge1, .lozenge-muted-orange-yellow {
+    /* muted yellow/orange  - used for tax rates*/
+    text-decoration: none !important;
+    background: #f9f9f2;
+    border: 1px solid #fc3;
+    color: #f07b00 !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 90%;
+    padding: 0 4px;
+    margin: 0 4px 0 0;
+    font-weight: normal;
+}
+
+.lozenge2, .lozenge-pale-blue-white {
+    /* off-white backgound, blue border */
+    text-decoration: none !important;
+    border: 1px solid #B5E9FF;
+    background: #FCFDFC;
+    color: #5CB2D7 !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 90%;
+    padding: 0 4px;
+    margin: 0 4px 0 0;
+    font-weight: normal;
+}
+
+.lozenge3, .lozenge-pale-blue {
+    /* pale blue */
+    text-decoration: none !important;
+    border: 1px solid #a4bdec;
+    background: #dee7f8;
+    color: #183155 !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 90%;
+    padding: 0 4px;
+    margin: 0 4px 0 0;
+    font-weight: normal;
+}
+
+.lozenge4, .lozenge-pale-gray {
+    /* light gray */
+    text-decoration: none !important;
+    border: 1px solid #d7d7d7;
+    background: #f4f4f4;
+    color: #333333 !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 90%;
+    padding: 0 4px;
+    margin: 0 4px 0 0;
+    font-weight: normal;
+}
+
+.user_favourite_item .lozenge-pale-blue-white {
+    margin-right: 10px;
+}
+
+
+
+
+/* Embedded images mechanism
+--------------------------------------------------- */
+
+    .embedded_img {
+        max-width: 100%;
+    }
+        .embedded_img.right {
+            padding: 0 0 20px 40px;
+            float: right;
+        }
+        .embedded_img.left {
+            padding: 0 40px 20px 0;
+            float: left;
+        }
+        .embedded_img a,
+        .embedded_img a:visited {
+            text-decoration: none;
+        }
+        .embedded_img img {
+            max-width: 100%;
+        }
+        .embedded_img .embedded_img_caption,
+        .embedded_img .embedded_img_copyright {
+            max-width: 100%;
+        }

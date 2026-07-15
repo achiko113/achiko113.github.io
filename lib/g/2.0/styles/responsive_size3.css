@@ -1,0 +1,216 @@
+/* -----------------------------------------------------------
+   Generic
+----------------------------------------------------------- */
+
+#content_module,
+.content_module {
+    width: 53%;
+}
+#sidebar,
+.sidebar {
+    width: 42%;
+}
+.section-contact #content_module {
+    width: 50%;
+}
+.section-contact #sidebar {
+    width: 50%;
+}
+body #image_gallery #image_container_wrapper {
+    width: 65%;
+    float: right;
+}
+body #image_gallery #content_module {
+    width: 35%;
+    float: left;
+}
+    /*body #image_gallery.record-layout-descriptive #image_container {*/
+    /*    width: 58%;*/
+    /*    float: right;*/
+    /*}*/
+    /*#image_gallery.record-layout-descriptive #secondary_content_module,*/
+    /*#image_gallery.record-layout-descriptive .page_stats {*/
+    /*    width: 58%;*/
+    /*    float: right;*/
+    /*}*/
+    /*body #image_gallery.record-layout-descriptive #content_module {*/
+    /*    width: 38%;*/
+    /*    float: left;*/
+    /*}*/
+
+
+#footer.advanced_footer #social_links {
+    float: none;
+    padding-top: 0;
+}
+#footer.advanced_footer #social_links .social_links_item {
+    margin: 0 8px 0 0;
+}
+
+
+/* -----------------------------------------------------------
+   Lists / grids
+----------------------------------------------------------- */
+
+/* Threecolumns in this viewport */
+
+.records_list.grid_dynamic_layout_viewing_rooms > ul > li,
+.records_list.image_list > ul > li,
+.records_list.detail_list > ul > li {
+    width: 33.3%;
+}
+
+.records_list.feature_list ul li .image {
+    width: 40%;
+    float: left;
+}
+.records_list.feature_list ul li .content {
+    width: 55%;
+    float: right;
+}
+
+.records_list.image_list ul li.unequal_threecol,
+.records_list.detail_list ul li.unequal_threecol {
+    width: 100%;
+    margin-right: 0;
+}
+.records_list.image_list ul li .image,
+.records_list.detail_list ul li .image,
+.records_list.image_list ul li .image span,
+.records_list.detail_list ul li .image span {
+    height: auto;
+}
+
+/* Tile list ----------------------------------------------------------- */
+
+.records_list.tile_list ul {
+    width: 33.3%;
+}
+
+/* Flow list ----------------------------------------------------------- */
+
+.records_list.flow_list ul li {
+    width: 33.3%;
+}
+
+/* Lists in a sidebar are excluded ----------------------------------------------------------- */
+
+#sidebar .records_list.image_list ul li,
+#sidebar .records_list.detail_list ul li {
+    width: 100%;
+    clear: both;
+    margin-right: 0;
+}
+
+/* Image gallery 
+----------------------------------------------------------- */
+
+#image_gallery.record-layout-descriptive #secondary_content_module {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: calc(100% - 100px) !important;
+}
+#image_gallery #image_related {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Image gallery detail expand
+----------------------------------------------------------- */
+.records_list.detail_expand_grid .expander_detail #image_gallery #image_container_wrapper {
+    width: 56%;
+}
+.records_list.detail_expand_grid .expander_detail #image_gallery #content_module {
+    width: 40%;
+}
+
+
+/* Filters 
+----------------------------------------------------------- */
+
+.artworks_filters_container_type_sidebar .filters_panel {
+    width: 100%;
+    padding: 0;
+}
+.artworks_filters_container_type_sidebar #content {
+    float: none;
+    width: 100%;
+    clear: both;
+}
+
+
+/* Feature panels
+----------------------------------------------------------- */
+
+
+    /* Feature panel type 11 - text columns and quote
+    ----------------------------------------------------------- */
+
+        .feature_panels .panel_image_text_columns .content {
+            padding-right: 0;
+            width: 100%;
+        }
+        .feature_panels .panel_image_text_columns .pull_quote_content {
+            float: left;
+            width: 100%;
+            clear: none;
+            margin: 0 0 40px;
+        }
+            
+    /* Feature panel type 6 - image grid
+    ----------------------------------------------------------- */
+
+    .feature_panels .records_list.image_list ul li.panel_image_grid {
+        width: 100%;
+    }
+
+
+    /* Feature panel type 4 - Image/Text adjacent
+    ----------------------------------------------------------- */
+
+    .feature_panels .records_list.image_list ul li.panel_image_text_adjacent{
+        width: 100%;
+    }
+    /*.feature_panels .records_list.image_list ul li.panel_image_text_adjacent .outer {
+        width: 50%;
+        display: inline-block;
+    }*/
+    .records_list.image_list ul li.panel_image_text_adjacent .fill,
+    .records_list.detail_list ul li.panel_image_text_adjacent .fill {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .content {
+        width: 50%;
+        display: inline-block;
+    }
+    
+    /* Feature panel type 10 - Scattered Image/Text 
+    ----------------------------------------------------------- */
+
+    .feature_panels .records_list.image_list ul li.panel_image_scattered_image_text .image {
+        width: 100%;
+    }
+
+/* Home ----------------------------------------------------------- */
+.section-home #slideshow.full_list ul li .image {
+    min-height: 0 !important;
+}
+
+/* Artist list ----------------------------------------------------------- */
+
+.section-artists #artist_list.names_list ul,
+.section-artists .artist_list.names_list ul {
+    margin-right: -20px;
+}
+.section-artists #artist_list.names_list li,
+.section-artists .artist_list.names_list li {
+    width: 33.33%;
+    padding-right: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.subsection-artists-list #sidebar {
+    width: 47%;
+}

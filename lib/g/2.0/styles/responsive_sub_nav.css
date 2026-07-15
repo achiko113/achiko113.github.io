@@ -1,0 +1,144 @@
+
+    /* Dynamic sub_nav
+    -----------------------------------------------------------*/
+        
+        #header {
+            overflow: hidden;
+        }
+
+        body.dropdown-expanded #header {
+            overflow: visible;
+        }
+
+        #header #page_header {
+            align-items: center;
+            transform: translate3d(0, 100%, 0);
+            transition: transform 600ms cubic-bezier(.65,.06,.19,.96), padding 600ms cubic-bezier(.65,.06,.19,.96), opacity 800ms ease-in-out, border 800ms ease-in-out, background 800ms ease-in-out, visibility 0ms 800ms;
+            opacity: 1;
+            visibility: hidden;
+            pointer-events: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        
+        .page_header_enable.scrolling-down #header #page_header {
+            transform: translate3d(0, 0, 0);
+            transition: transform 600ms cubic-bezier(.65,.06,.19,.96), padding 600ms cubic-bezier(.65,.06,.19,.96), opacity 800ms ease-in-out, border 800ms ease-in-out, background 800ms ease-in-out;
+            opacity: 1;
+            pointer-events: auto;
+            visibility: visible;
+        }
+        
+         #header #page_header::after {
+            content: '';
+            display: block;
+            flex-grow: 1;
+            flex-basis: 0;
+        }
+                    
+            #header #page_header .page-header-inner {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+            }
+
+            #header #page_header .page-header-inner > a {
+                text-decoration: none;
+                flex: 1;
+            }
+            
+            #header #page_header #h1_wrapper , #header #page_header .h1_wrapper {
+                flex: 1;
+                text-align: left;
+                align-self: center;
+                position: relative;
+                display: flex;
+                margin: 0 20px 0 0;
+                min-width: fit-content;
+                max-width: 50vw;
+            }
+            #header #page_header #h1_wrapper h2 , #header #page_header .h1_wrapper h2 {
+                float: left;
+                margin: 0;
+                transition: color 800ms ease-in-out;
+                line-height: 3.1rem;
+                display: block;
+                box-sizing: border-box;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border: none;
+            }
+            
+        .page_header_enable .header-fixed-wrapper #header .inner {
+            transition: transform 600ms cubic-bezier(.65,.06,.19,.96), max-height 600ms cubic-bezier(.65,.06,.19,.96),  padding 600ms cubic-bezier(.65,.06,.19,.96), opacity 800ms ease-in-out, border 800ms ease-in-out, background 800ms ease-in-out;
+        }
+        
+        body:not(.page-popup-active) .page_header_enable.scrolling-down #header .inner {
+            transform: translate3d(0, -150%, 0);
+            transition: transform 600ms cubic-bezier(.65,.06,.19,.96), padding 600ms cubic-bezier(.65,.06,.19,.96), opacity 800ms ease-in-out, border 800ms ease-in-out, background 800ms ease-in-out;
+        }
+        
+        body .page_header_enable.scrolling-down #header.header_fixed:not(.header_fixed_no_follow) {
+            transform: none;
+        }
+        
+        .page-header-inner h2.has_subnav {
+            margin-bottom: 0;
+        }
+
+        .page_header_enable.scrolling-down .header-fixed-wrapper #header .inner,
+        .page_header_enable.scrolling-down #header .inner {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        .page-param-type-exhibition_id .page-header-inner h2,
+        .page-param-type-exhibition_id .page-header-inner .subtitle.has_subnav,
+        .page-param-type-exhibition_id .page-header-inner .has_subtitle {
+            margin: auto 0;
+        }
+        
+        .page-header-inner #h1_wrapper h2 #artist_years,
+        .page-header-inner #h1_wrapper h2 .artist_years,
+        .page-header-inner .h1_wrapper h2 #artist_years,
+        .page-header-inner .h1_wrapper h2 .artist_years,
+        .page-param-type-exhibition_id .page-header-inner .has_subtitle .separator,
+        .page-param-type-exhibition_id .page-header-inner .has_subtitle .h1_subtitle,
+        .page-param-type-exhibition_id .page-header-inner .subtitle.has_subnav {
+            display: none;
+        }
+        
+        .page-header-inner #sticky_sub_nav.navigation,
+        .page_header_enable.scrolling-up .page-header-inner #sticky_sub_nav.navigation,
+        .page_header_enable.scrolling-down .page-header-inner #sticky_sub_nav.navigation {
+            border-bottom: 0 !important;
+            display: flex;
+            width: 100%;
+            position: relative;
+            justify-content: flex-end;
+            left: 0;
+            right: 0;
+            margin: 0;
+            text-align: left;
+            min-width: fit-content;
+            max-width: 50vw;
+        }
+        
+        .page-header-inner #sticky_sub_nav.navigation ul li a {
+            padding: 2px 0;
+        }
+
+@media screen and (min-width: 1023px) {
+    
+    .page-header-inner .has_subtitle {
+        min-width: 300px;
+        max-width: 500px;
+    }
+}

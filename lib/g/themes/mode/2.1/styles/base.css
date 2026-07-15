@@ -1,0 +1,206 @@
+/* -----------------------------------------------------------
+    Load fonts
+----------------------------------------------------------- */
+
+    @import url(/lib/webfonts/alsans/stylesheet.css);
+
+
+/* -----------------------------------------------------------
+    Global Styles
+----------------------------------------------------------- */
+
+    html {
+        /*
+            IMPORTANT - DO NOT CHANGE THIS VALUE WITHOUT READING DOCUMENTATION ON REM.
+            THIS CAN BE FOUND IN MC: /documentation/art-gallery-sites/development/template-art-gallery-website-development/font-sizes-rem/
+        */
+        font-size: 10px;
+    }
+    body {
+        font-family:'AL Sans', Sans-Serif;
+        font-weight: normal;
+        color: #010101;
+        font-size: 1.45rem;
+        line-height: 3.2rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    a,
+    a:visited,
+    a:hover,
+    .link_color,
+    .link_color:hover {
+        color: #010101;
+    }
+    .link {
+        text-decoration: none;
+    }
+    h1, h2, h3, h4, h5, h6, #hero_header, .fullscreen_slideshow .hero_splash_text {
+        font-family:'AL Sans', Sans-Serif;
+        font-weight: normal;
+        color: #010101;
+        margin: 0 0 15px;
+    }
+    h1 a,h1 a:visited,
+    h2 a, h2 a:visited,
+    h3 a, h3 a:visited,
+    h4 a, h4 a:visited,
+    h5 a, h5 a:visited,
+    h6 a, h6 a:visited {
+        color: #010101;
+        text-decoration: none;
+    }
+    h1 {
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+        margin: 0 0 50px;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    h4 {
+        font-size: 1.6rem;
+        margin: 0 0 10px;
+    }
+    h5 {
+        font-size: 1.4rem;
+        margin: 0 0 6px;
+    }
+    h6 {
+        font-size: 1.3rem;
+        margin: 0 0 6px;
+    }
+    #hero_header,
+    .feature_panels .panel_hero .hero_heading > h2,
+    .feature_panels .panel_hero .hero_heading > a > h2 {
+        font-size: 4rem;
+        line-height: 4.2rem;
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    #hero_header .subtitle,
+    .feature_panels .panel_hero .hero_heading .subtitle {
+        margin: 0;
+        padding: 20px 0 0;
+        font-weight: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .feature_panels .panel_hero .hero_heading .description {
+        margin: 0;
+        padding: 20px 0 0;
+        font-weight: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    input,
+    select,
+    textarea {
+        font-family:'AL Sans', Sans-Serif;
+        font-weight: 200;
+        color: #010101;
+        font-size: 1.3rem;
+    }
+    
+    blockquote {
+        border: none;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -moz-box-shadow: 0;
+        -webkit-box-shadow: 0;
+        box-shadow: none;
+        margin: 2em 0;
+        background: none;
+        background-color: transparent;
+        padding: 5px 0 5px 30px;
+        width: 85%;
+        line-height: inherit;
+        overflow: auto;
+        text-indent: 0px;
+        border-left: 1px solid #151515;
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
+
+    
+     /* Title/heading typography
+    ----------------------------------------------------------- */
+    h1, h2, h3, h4, h5, h6, #hero_header, .fullscreen_slideshow .hero_splash_text,
+    #logo a,
+    .navigation ul li a,
+    #slide_nav_reveal,
+    #header_quick_search .inputField,
+    #header_quick_search input,
+    #header_quick_search select,
+    #header_quick_search textarea,
+    #header_quick_search #header_quicksearch_btn,
+    #footer #artlogic,
+    #footer .small-links-container,
+    #footer #copyright,
+    .page-artists h1 #artist_years,
+    .page-artists h1 .artist_years,
+    .event-details-wrapper .event-details span,
+    .subsection-press .records_list .content .link a,
+    .section-press .records_list .content .link a,
+    #store_cart_widget,
+    .fullscreen_slideshow .hero_splash_text,
+    .fullscreen_slideshow .hero_splash_text .title,
+    .fullscreen_slideshow ul li .content h2,
+    .fullscreen_slideshow ul li .content h2 a,
+    .fullscreen_slideshow ul li .content h2 a:visited,
+    .fullscreen_slideshow ul li .content h2 a .separator,
+    .fullscreen_slideshow ul li .content h2 a .h1_subtitle,
+    #image_gallery #content_module h3,
+    .records_list .content h2,
+    .records_list .content .subtitle,
+    .records_list .content .date,
+    .records_list .content .location ,
+    .records_list ul li .content .title,
+    .records_list ul li .content .artist,
+    .feature_panels .panel_image_text_adjacent .content h2,
+    .feature_list ul li .content h2,
+    .feature_list ul li .content .subtitle,
+    .feature_list ul li .content .date,
+    .feature_list ul li .content .location,
+    .full_list ul li .content h2,
+    .full_list ul li .content .subtitle,
+    .full_list ul li .content .date,
+    .records_list.detail_expand_grid .expander_detail #image_gallery #content_module .subtitle,
+    .link,
+    .button,
+    .button input,
+    .simple_list ul li,
+    #social_links_list ul li,
+    .page_stats .ps_item,
+    .page_stats .ps_pages,
+    #protected_path_login #container h1,
+    #protected_path_login #container label,
+    .subheading,
+    .poster,
+    .subtitle,
+    .h1_subtitle,
+    .location ,
+    .date,
+    .price,
+    #fancybox-title-main .artist strong,
+    #mc_embed_signup input.button,
+    #home_splash .content,
+    #hero_header .subtitle,
+    .feature_panels .panel_hero .hero_heading .subtitle,
+    #hero_header,
+    .feature_panels .panel_hero .hero_heading > h2,
+    .feature_panels .panel_hero .hero_heading > a > h2,
+    #cover_page_slideshow_pager {
+        text-transform: uppercase;
+        letter-spacing: 0.145em;
+    }
+
+
+    
+

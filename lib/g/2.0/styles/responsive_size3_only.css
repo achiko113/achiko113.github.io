@@ -1,0 +1,252 @@
+    
+    /*
+        in media query as the import max width of this file is dynamic
+        and we always only want the below code to run at 1023px
+    */
+    @media screen and (max-width: 1023px) {
+        .section-store .subsection-store-basket #content_module {
+            width: 100%!important;
+            max-width: 700px!important;
+            float: none!important;
+            margin-left: auto!important;
+            margin-right: auto!important;
+        }
+        .section-store .subsection-store-basket #sidebar {
+            width: 100%!important;
+            max-width: 700px!important;
+            float: none!important;
+            padding-left: 0!important;
+            margin-left: auto!important;
+            margin-right: auto!important;
+        }
+        #shopping_cart_information td.sc_cell_quantity .qty {
+            padding: 0px 4px;
+        }
+        body.checkout_third_step.section-store .subsection-store-basket #content_module,
+        body.checkout_second_step.section-store .subsection-store-basket #content_module {
+            display: none;
+        }
+        #popup_content #image_gallery.image_gallery_no_caption #content_module {
+            left: 15px !important;
+        }
+        
+        
+        /* Fullscreen close button 
+        --------------------------------------------------------------- */
+        
+        /* Logo right  -------------------------- */
+            
+        body.responsive-nav-side-position-fullscreen #header.header_layout_right #responsive_slide_nav_wrapper #top_nav #top_nav_reveal {
+            left: 30px;
+        }
+        
+        /* Dynamic sub_nav
+        -----------------------------------------------------------*/
+        
+        /*#header #page_header .page-header-inner {*/
+        /*    padding: 0 40px;*/
+        /*}*/
+    }
+
+    /*#content_module {
+        width: 63%;
+    }
+    #sidebar {
+        width: 32%;
+    }
+    .section-contact #content_module {
+        width: 63%;
+    }
+    .section-contact #sidebar {
+        width: 32%;
+    }
+
+    .section-store .subsection-store-basket #content_module {
+        width: 63%;
+    }
+    .section-store .subsection-store-basket #sidebar {
+        width: 32%;
+    }
+
+
+
+    body #image_gallery #image_container {
+        width: 65%;
+        float: right;
+    }
+    body #image_gallery #content_module {
+        width: 30%;
+        float: left;
+    }
+
+        body #image_gallery.record-layout-descriptive #image_container {
+            width: 58%;
+            float: right;
+        }
+        #image_gallery.record-layout-descriptive #secondary_content_module,
+        #image_gallery.record-layout-descriptive .page_stats {
+            width: 58%;
+            float: right;
+        }
+        body #image_gallery.record-layout-descriptive #content_module {
+            width: 38%;
+            float: left;
+        }
+
+    body #image_gallery.artwork_full_details_open #image_container {
+        width: 30%;
+    }
+    body #image_gallery.artwork_full_details_open #content_module {
+        width: 60%;
+    }
+
+    body.responsive-layout-forced-lists .records_list.feature_list ul li .image {
+        width: 40%;
+        float: left;
+    }
+    body.responsive-layout-forced-lists .records_list.feature_list ul li .content {
+        width: 55%;
+        float: right;
+    }*/
+
+    /* Three columns in this viewport */
+
+    /*body.responsive-layout-forced-image-lists .records_list.image_list,
+    body.responsive-layout-forced-lists .records_list.detail_list {
+        margin-right: -20px;
+        width: auto;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list > ul,
+    body.responsive-layout-forced-lists .records_list.detail_list > ul {
+        display: inline;
+        clear: none;
+    }*/
+    /*
+    body.responsive-layout-forced-image-lists .records_list.image_list > ul > li,
+    body.responsive-layout-forced-lists .records_list.detail_list > ul > li {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        width: 33.33%;
+        clear: none;
+        margin-right: 0;
+        padding-right: 20px
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    */
+    /*
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li:nth-of-type(3n),
+    body.responsive-layout-forced-lists .records_list.detail_list ul li:nth-of-type(3n) {
+        margin-right: 0;
+    }
+    */
+    /*body.responsive-layout-forced-image-lists .records_list.image_list ul li.unequal_threecol,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li.unequal_threecol {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .outer,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .outer {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .fill,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .fill {
+        margin-top: 100%;
+        display: block;
+    }
+        body.responsive-layout-forced-image-lists .records_list.image_list ul li.panel_image_text_adjacent .fill,
+        body.responsive-layout-forced-lists .records_list.detail_list ul li.panel_image_text_adjacent .fill {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .image_wrapper,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .image_wrapper {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .image,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .image,
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .image span,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .image span {
+        height: auto;
+    }*/
+
+/*
+    body.responsive-layout-forced-lists.page-artists .subsection-artist-list-preview #list_preview_navigation.records_list.columns_list ul,
+    body.responsive-layout-forced-lists.page-artists .subsection-artist-list-preview-letters #list_preview_navigation.records_list.columns_list ul {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }*/
+
+    /* Tile list ----------------------------------------------------------- */
+
+    /*body.responsive-layout-forced-tile-lists .records_list.tile_list ul {
+        width: 30%;
+        margin-right: 5%;
+        float: left;
+    }
+    body.responsive-layout-forced-tile-lists .records_list.tile_list ul:nth-of-type(3n) {
+        margin-right: 0;
+    }*/
+
+    /* Lists in a sidebar are excluded ----------------------------------------------------------- */
+
+    /*body.responsive-layout-forced-image-lists #sidebar .records_list.image_list ul li,
+    body.responsive-layout-forced-lists #sidebar .records_list.detail_list ul li {
+        width: 100%;
+        clear: both;
+        margin-right: 0;
+    }*/
+
+
+    /* Feature panels
+    ----------------------------------------------------------- */
+
+
+        /* Feature panel type 6 - image grid
+        ----------------------------------------------------------- */
+
+        /*.feature_panels .records_list.image_list ul li.panel_image_grid {
+            width: 100%;
+        }*/
+
+
+        /* Feature panel type 4 - Image/Text adjacent
+        ----------------------------------------------------------- */
+/*
+        .feature_panels .records_list.image_list ul li.panel_image_text_adjacent{
+            width: 100%;
+        }
+        .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .outer {
+            width: 50%;
+            display: inline-block;
+        }
+        .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .content {
+            width: 50%;
+            display: inline-block;
+
+        }*/
+
+    /* Artist list ----------------------------------------------------------- */
+
+    /*body.responsive-layout-forced-lists.section-artists #artist_list.names_list ul {
+        margin-right: -20px;
+    }
+    body.responsive-layout-forced-lists.section-artists #artist_list.names_list li {
+        width: 33.33%;
+        padding-right: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }*/
