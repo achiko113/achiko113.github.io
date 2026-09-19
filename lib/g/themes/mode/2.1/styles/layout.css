@@ -85,7 +85,7 @@ Theme name: Mode
     
     /* share widget - DARK MODE */
     /*.add_this_social_media_icon {*/
-    /*    background: url(/lib/g/2.0/images/social_icons_alt.png) 0 -21px no-repeat transparent;*/
+    /*    background: none 0 -21px no-repeat transparent;*/
     /*}*/
     /*#social_sharing_links.popup_vertical ul li.social_links_item a:hover {*/
     /*    background: #ebebeb;*/
@@ -96,7 +96,7 @@ Theme name: Mode
     /*    background: #01020a;*/
     /*}*/
     /*    .wall .wall-texture {*/
-    /*        background: url(/lib/jquery/plugins/roomview/1.0/images/dark_plaster.jpg) #000000 repeat top;*/
+    /*        background: none #000000 repeat top;*/
     /*        background-size: 1250px auto;*/
     /*        opacity: 0.4;*/
     /*    }*/

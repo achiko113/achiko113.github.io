@@ -1,0 +1,14 @@
+
+.afa-memorial{position:relative;z-index:5;background:#eee9df;color:#292720;padding:16px 5%;font:14px/1.5 Arial,sans-serif;display:flex;gap:22px;margin-top:100px;box-sizing:border-box}
+.afa-memorial strong{white-space:nowrap;text-transform:uppercase;letter-spacing:.12em;font-size:11px;padding-top:3px}
+body.section-home .afa-memorial{margin-top:0;position:absolute;top:165px;left:0;right:0;z-index:1100}
+.afa-context{background:#eee9df;color:#292720;padding:20px!important;clear:both;font:15px/1.6 Arial,sans-serif!important;margin:0 0 32px!important}
+.afa-document{max-width:1200px!important;margin:40px auto 70px!important;padding:0 5%!important;box-sizing:border-box}
+.afa-document h1{font-size:34px;line-height:1.3;margin-bottom:20px}.afa-document p{font-size:17px;line-height:1.65;margin-bottom:18px}
+.afa-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin:35px 0}.afa-gallery figure{margin:0}.afa-gallery img{width:100%;height:290px;object-fit:contain;background:#f4f3ef}.afa-gallery figcaption{font:12px/1.5 Arial;margin-top:8px;color:#555}
+.afa-detail-image{display:block;max-width:100%;max-height:75vh;object-fit:contain;margin:30px auto}.afa-photo-nav{font-size:16px;margin:25px 0}
+.afa-gallery-link{font-size:16px!important;margin-bottom:25px!important}#header .header_quick_search{display:none!important}.cookie_notification,.cookie_notification_bar{display:none!important}
+@media(max-width:700px){.afa-memorial{margin-top:80px;padding:12px 5%;display:block;font-size:12px}.afa-memorial strong{display:block;margin-bottom:4px}body.section-home .afa-memorial{top:105px}.afa-gallery{grid-template-columns:1fr;gap:25px}.afa-gallery img{height:auto}.afa-document h1{font-size:26px}.afa-document{margin-top:25px!important}.afa-document p{font-size:16px}}
+
+/* Static archive layout: no scroll-animation dependency. */
+.afa-memorial{margin-top:0}.afa-home-gallery{clear:both;padding:50px 4%}.afa-home-gallery h2{margin:0 0 30px}.afa-home-gallery>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.afa-home-gallery img{width:100%;height:auto;display:block}.afa-home-gallery p{margin-top:24px}@media(max-width:700px){.afa-memorial{margin-top:0}.afa-home-gallery>div{grid-template-columns:1fr}.afa-home-gallery{padding:35px 5%}}

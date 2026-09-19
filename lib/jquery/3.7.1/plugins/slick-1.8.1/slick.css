@@ -37,7 +37,7 @@
     border: none;
     outline: none;
     z-index: 20;
-    background-image: url('/lib/jquery/3.7.1/plugins/slick-1.8.1/slideshow_controls.png');
+    background-image: none;
     background-repeat: no-repeat;
     opacity: 0;
     transition: opacity .25s ease-in-out, background-color .4s ease-in-out;

@@ -305,7 +305,7 @@ body.roomview-active img.placeholder-artwork {
     /*.roomview-object.furniture-type-chair {*/
     /*    width: 293px;*/
     /*    height: 259px;*/
-    /*    background: url(images/eames_white_chair.png) no-repeat;*/
+    /*    background: none no-repeat;*/
     /*    background-size: contain;*/
     /*    transform: translate(-160%,50px);*/
     /*}*/
@@ -320,7 +320,7 @@ body.roomview-active img.placeholder-artwork {
     /*.roomview-object.furniture-type-chair2 {*/
     /*    width: 293px;*/
     /*    height: 259px;*/
-    /*    background: url(images/black_plastic_chair.png) no-repeat;*/
+    /*    background: none no-repeat;*/
     /*    background-size: contain;*/
     /*    transform: translate(50%,79px);*/
     /*}*/

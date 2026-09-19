@@ -6619,7 +6619,7 @@ body.sc_wishlist_quick_cart_widget_animate #main_content {
     right: 0;
     height: 11px;
     width: 11px;
-    background: url(/lib/g/2.0/images/x.png) 0 0 no-repeat;
+    background: none 0 0 no-repeat;
     transition: background 400ms ease-in-out;
     background-size: 11px auto;
 }
@@ -11034,14 +11034,14 @@ a.external {
     position: absolute;
     top: 0;
     left: 0;
-    /*background: url(../images/image_mask.png);*/
+    /*background: none;*/
     background: rgba(0, 0, 0, .4);
 }
 
 #ig_slideshow .item span.artwork_video_mask span {
     display: block;
     text-align: center;
-    background: url(/lib/g/2.0/images/video_icon.png) center center no-repeat;
+    background: none center center no-repeat;
     background-size: 64px;
     text-indent: -9999px;
 }
@@ -11074,12 +11074,12 @@ a.external {
 
 #ig_slideshow_thumbnails_prev {
     left: 0;
-    background: url(/lib/g/2.0/images/icon_left_large.png) center center no-repeat #f4f4f4;
+    background: none center center no-repeat #f4f4f4;
 }
 
 #ig_slideshow_thumbnails_next {
     right: 0;
-    background: url(/lib/g/2.0/images/icon_right_large.png) center center no-repeat #f4f4f4;
+    background: none center center no-repeat #f4f4f4;
 }
 
 #ig_slideshow_thumbnails_prev a,
@@ -11228,12 +11228,12 @@ a.external {
 
 .jTscrollerPrevButton {
     left: -40px;
-    /*background: url(../images/icon_left_large.png) center center no-repeat;*/
+    /*background: none center center no-repeat;*/
 }
 
 .jTscrollerNextButton {
     right: -40px;
-    /*background: url(../images/icon_right_large.png) center center no-repeat;*/
+    /*background: none center center no-repeat;*/
 }
 
 .jTscrollerPrevButton,
@@ -11621,7 +11621,7 @@ a.external {
     height: 55px;
     display: block;
     content: '';
-    background: url(/lib/g/2.0/images/own_art_logo.png) center center no-repeat;
+    background: none center center no-repeat;
     background-size: 55px auto;
     float: left;
     margin: 0 15px 0 0;
@@ -15542,7 +15542,7 @@ body .records_list.visible_grid_captions ul li .content {
     ----------------------------------------------------------- */
 
 .loader_simple {
-    /*background: url(../images/loader.gif) center center no-repeat;*/
+    /*background: none center center no-repeat;*/
     width: 26px;
     height: 26px;
     position: relative;
@@ -15935,7 +15935,7 @@ button.list-ajax-load-previous {
 
 .fancybox-wrap.elevatezoom-enabled .fancybox-prev span {
     visibility: visible;
-    background: url('/lib/g/1.0/images/fancybox-arrow-left_2x.png') center center no-repeat;
+    background: none center center no-repeat;
     background-size: 48px auto;
     opacity: 0.4;
     left: 0;
@@ -15964,7 +15964,7 @@ button.list-ajax-load-previous {
 
 .fancybox-wrap.elevatezoom-enabled .fancybox-next span {
     visibility: visible;
-    background: url('/lib/g/1.0/images/fancybox-arrow-right_2x.png') center center no-repeat;
+    background: none center center no-repeat;
     background-size: 48px auto;
     opacity: 0.4;
     right: 0;
@@ -15984,7 +15984,7 @@ button.list-ajax-load-previous {
 }
 
 .fancybox-powerzoom .fancybox-close {
-    background: url(/lib/g/2.0/images/zoom_close.png) 10px 10px;
+    background: none 10px 10px;
     opacity: 0.5;
     background-repeat: no-repeat;
     background: none;
@@ -16763,7 +16763,7 @@ div.arpromptfade {
 .add_this_social_media_icon {
     width: 21px;
     height: 21px;
-    /*background: url(../images/social_icons_black.png) 0 -21px no-repeat transparent;*/
+    /*background: none 0 -21px no-repeat transparent;*/
 }
 
 .add_this_social_media_icon::after {
@@ -16963,7 +16963,7 @@ div.arpromptfade {
 
 /*
     .device-highres .add_this_social_media_icon {
-        background-image: url(../images/social_icons_black_2x.png);
+        background-image: none;
         background-size: auto 42px;
     }
     */
@@ -17489,7 +17489,7 @@ body.add_to_calendar_event_date_dropdown #hero_header #hero_heading .title {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .form .form_row select {
-        background: url(/lib/archimedes/images/drop_arrow.gif) 98% 9px no-repeat #fff;
+        background: none 98% 9px no-repeat #fff;
         -webkit-appearance: none;
     }
 }

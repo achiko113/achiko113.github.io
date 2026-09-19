@@ -19,14 +19,14 @@ Theme name: Site name
             height: YOUR-LOGO-HEIGHT;
         }
         #logo {
-            background-image: url('/images/logo.png');
+            background-image: none;
         }
         #logo a {
             text-indent: -9999px;
             padding: 0;
         }
         .device-highres #logo {
-            background-image: url('/images/logo_2x.png');
+            background-image: none;
             background-size: auto YOUR-LOGO-HEIGHT;
         }
 
